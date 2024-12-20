@@ -1,0 +1,14 @@
+# git
+.git
+.gitignore
+.github
+
+# bun
+node_modules
+.bun
+
+# next.js
+.next
+out
+build
+dist
