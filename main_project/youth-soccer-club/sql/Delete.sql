@@ -1,0 +1,14 @@
+DELETE FROM SecondaryFamilyRelated;
+DELETE FROM FamilyRelated;
+DELETE FROM ClubMemberLocations;
+DELETE FROM ClubMemberTeams;
+DELETE FROM TeamFormation;
+DELETE FROM Sessions;
+DELETE FROM Teams;
+DELETE FROM ClubMembers;
+DELETE FROM FamilyMemberLocations;
+DELETE FROM SecondaryFamilyMember;
+DELETE FROM FamilyMember;
+DELETE FROM PersonnelLocations;
+DELETE FROM Personnel;
+DELETE FROM Location;
