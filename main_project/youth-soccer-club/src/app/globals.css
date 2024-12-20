@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --red-crayola: hsla(347, 83%, 60%, 1);
+  --russian-violet: hsla(252, 51%, 24%, 1);
+  --night: hsla(156, 20%, 5%, 1);
+  --silver: hsla(171, 6%, 78%, 1);
+  --verdigris: hsla(175, 51%, 48%, 1);
+
+  --foreground-rgb: var(--silver);
+  --background-start-rgb: var(--night);
+  --background-end-rgb: var(--russian-violet);
+}
+
+body {
+  color: var(--foreground-rgb);
+  background: linear-gradient(to bottom, transparent, var(--background-end-rgb))
+    var(--background-start-rgb);
+}
